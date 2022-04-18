@@ -1,0 +1,58 @@
+<html>
+    <style>
+        h1{
+            text-align: center; 
+        }
+        .game{
+            display: flex;
+            justify-content: center;
+        }
+        .player-options{
+            text-align: center;
+            margin: 0 auto;
+        }
+        .player-options img{
+            max-width: 200px;
+            opacity: 0.3;
+            cursor: pointer;
+        }
+        .enemy-options{
+            text-align: center;
+            margin: 0 auto;
+        }
+        .enemy-options img{
+            max-width: 200px;
+            opacity: 0.3;
+        }
+        .result{
+            text-align: center;
+        }
+    </style>
+    <body>
+        
+        <H1>Pedra, Papel, Tesoura!</H1>
+        <h2 class="result"></h2>
+        <hr>
+
+        <div class="game">
+            <div class="player-options">
+                <h4 class="wins-player"></h4>
+                <h2>Player</h2>
+                <div><img opt="pedra" src="rock.png" alt="Rock"></div>
+                <div><img opt="papel" src="paper.png" alt="Paper"></div>
+                <div><img opt="tesoura" src="scisor.png" alt="Scisor"></div>
+            </div>
+            <hr>
+            <div class="enemy-options">
+                <h4 class="wins-enemy"></h4>
+                <h2>Enemy</h2>
+                <div><img opt="pedra" src="rock.png" alt="Rock"></div>
+                <div><img opt="papel" src="paper.png" alt="Paper"></div>
+                <div><img opt="tesoura" src="scisor.png" alt="Scisor"></div>
+            </div>
+        </div>
+
+
+        <script src="index.js"></script>
+    </body>
+</html>
